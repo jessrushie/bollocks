@@ -1,0 +1,94 @@
+html, body {
+    font-family: 'Mada', Arial, sans-serif;
+    font-size: 16pt;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+ul, ol, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.wrapper {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: lowercase;
+}
+
+header hr {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: black;
+}
+
+header nav {
+    background-color: #b6dbd0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.1em;
+    text-transform: lowercase;
+}
+
+.article-nav a.article-nav-item {
+    display: block;
+    text-decoration: none;
+    background-color: #F2F7F5;
+    padding: 0.5em;
+}
+
+.article-nav a.article-nav-item:hover {
+    background-color: #E3F1ED;
+}
+
+.article-nav a.article-nav-item:hover h2 {
+    text-decoration: underline;
+}
+
+.article-nav h2 {
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.article-nav .preview {
+    display: flex;
+    flex-direction: row-reverse;  
+}
+
+.article-nav .preview div {
+    margin-left: 1rem;
+}
